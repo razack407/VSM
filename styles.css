@@ -54,8 +54,22 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2.25rem, 3vw, 4rem);
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.header-content h2 {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.subtitle {
+  font-size: clamp(0.95rem, 1.5vw, 1.25rem);
   margin-bottom: 1rem;
+  font-weight: 400;
+  color: #a0aec0;
 }
 
 p {
@@ -83,7 +97,7 @@ main {
 .gallery .image-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: 1fr;
   margin-top: 1.5rem;
 }
 
@@ -101,9 +115,21 @@ main {
 }
 
 .image-card h3 {
-  padding: 1rem 1rem 1.25rem;
+  padding: 1rem 1rem 0.5rem;
   font-size: 1rem;
   color: #e2e8f0;
+}
+
+.description-list {
+  margin: 0 1rem 1.5rem;
+  padding-left: 1.2rem;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.description-list li {
+  margin-bottom: 0.5rem;
 }
 
 .details p {
